@@ -1,0 +1,29 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crystal</title>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./styles.css"> 
+</head>
+<body>
+    <h1>Click on a crystal to try to save up for your magic number of &nbsp;<span id="num"></span></h1>
+    <h3>Be careful, there are two fake gems below! Caution: you will lose a game if you click a "dud" twice.</h3>
+    <div class="crystals">
+        <span class="crystal" id="c0" data-pnts="0"><img class="gem" src="./Images/gem1.png"/></span>
+        <span class="crystal" id="c1" data-pnts="0"><img class="gem" src="./Images/gem2.png"/></span>
+        <span class="crystal" id="c2" data-pnts="0"><img class="gem" src="./Images/gem3.png"/></span>
+        <span class="crystal" id="c3" data-pnts="0"><img class="gem" src="./Images/gem4.png"/></span>
+        <span class="crystal" id="c4" data-pnts="0"><img class="gem" src="./Images/gem5.png"/></span>
+        <span class="crystal" id="c5" data-pnts="0"><img class="gem" src="./Images/gem6.png"/></span>
+    </div>
+    <h2>Your score was previously, <span id="prev"></span>&nbsp;but is now: <span id="now"></span> so you earned <span id="points"></span></h2>
+    <footer>
+        <div><span id="wins"></span></div>
+        <div><span id="losses"></span></div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/crystalCollector.js"></script>
+</body>
+</html>

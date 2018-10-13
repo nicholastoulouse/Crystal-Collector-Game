@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    margin: 20px;
+    font-family: Trattatello, 'OCR A Std', Verdana, Georgia, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+.gem {
+    width: 14%;
+    margin: 0 1%;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    padding: 15px;
+    background-color: darkgrey;
+}
+.score {
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+h1 {
+    text-align: center;
+    letter-spacing: .1em;
+    word-spacing: .1em;
+}
+#num {
+    margin-top: 20px;
+    display: block;
+    font-size: 2.5em;   
+}
+h3 {
+    padding-top: 10px;
+    font-size: 18px;
+    color: magenta;
+    letter-spacing: .05em;
+    word-spacing: .05em;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: lightslategray;
+    margin-top: 35px;
+    font-size: 36px;
+    opacity: .2;
+    letter-spacing: .05em;
+    word-spacing: .15em;
+}
+#prev, #now, #points {
+    font-size: 50px;
+}
+
+#wins, #losses {
+    color: magenta;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    letter-spacing: .1em;
+    font-size: 32px;
+}
